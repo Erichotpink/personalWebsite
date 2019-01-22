@@ -18,6 +18,6 @@ public class HelloController {
     @ResponseBody
     @ApiOperation(value = "获取helloWorld", notes = "根返回HelloWorld")
     public String test() {
-        return "hello Jenkins!";
+         return "hello Jenkins,sc!";
     }
 }
